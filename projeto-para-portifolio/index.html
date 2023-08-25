@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list to do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="NavBar">
+            <div class="log"><h1>lista de tarefas</h1>
+                            <div class="line"></div></div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form >
+                <label for="text">Tarefa</label><br>
+                <input type="text" name="" id="inputText"><br>
+                <label for="date">Data </label><br>
+                <input type="date" name="date" id="inputDate"><br>
+                <label for="importante">Nivel de importancia</label><br>
+                <input type="text" name="importante" id="importante">
+                 <button id="ButtonAdd">Adicionar</button>
+            </form>
+           
+        </section>
+        <section class="lists" id="lists">
+            <ul id="addlist">
+            </ul>            
+        </section>
+    </main>
+    <script src="sript.js"></script>
+</body>
+</html>
